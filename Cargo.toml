@@ -1,0 +1,19 @@
+[package]
+name = "mg-rs-piston"
+version = "0.1.0"
+authors = ["mito15 <mitosawada@gmail.com>"]
+
+[dependencies]
+piston_window = "0.80"
+camera_controllers = "0.24"
+gfx = "0.17"
+gfx_device_gl = "0.15"
+shader_version = "0.3.0"
+cgmath = "0.16"
+image = "0.19"
+conrod = { version = "0.61", features = ["piston"]}
+rust_fluid = { path = "../rust_fluid", version = "0.1.0" }
+gfx_macros = "0.2.0"
+obj = "0.8.2"
+genmesh = "0.6.2"
+find_folder = "0.3.0"
